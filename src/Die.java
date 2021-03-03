@@ -47,7 +47,7 @@ public class Die extends JLabel
     // Rolls the die and returns the result.
     //-----------------------------------------------------------------
     public int roll()
-    {
+        {
         faceValue = (int)(Math.random() * MAX) + 1;
         mySetIcon(faceValue);
         return faceValue;
